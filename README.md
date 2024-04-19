@@ -32,31 +32,31 @@ Ensure you have Python installed on your system. You can download Python from [p
 
 Clone this repository to your local machine using Git:
 
-\`\`\`bash
-git clone https://github.com/yourgithubusername/mikrotik-wbx-to-csv.git
+```bash
+git clone https://github.com/mciantar/wbx-to-csv/mikrotik-wbx-to-csv.git
 cd mikrotik-wbx-to-csv
-\`\`\`
+```
 
 ### Usage
 
 Run the script with the following command-line arguments:
 
-- \`-i\` or \`--input\`: Specifies the input WBX file.
-- \`-o\` or \`--output\`: Specifies the output CSV file.
-- \`-d\` or \`--debug\`: Enables debug output (optional).
+- `-i` or `--input`: Specifies the input WBX file.
+- `-o` or `--output`: Specifies the output CSV file.
+- `-d` or `--debug`: Enables debug output (optional).
 
 Example command:
 
-\`\`\`bash
+```bash
 python wbx_to_csv_converter.py -i input.wbx -o output.csv
-\`\`\`
+```
 
 To enable debugging output, add the \`-d\` flag:
 
-\`\`\`bash
+```bash
 python wbx_to_csv_converter.py -i input.wbx -o output.csv -d
-\`\`\`
+```
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
